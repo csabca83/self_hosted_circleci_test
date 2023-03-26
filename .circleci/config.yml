@@ -1,4 +1,9 @@
 version: 2.1
+
+branches:
+  only:
+    - asd
+
 jobs:
   build:
     docker:
@@ -6,6 +11,7 @@ jobs:
     resource_class: csabca83/test_runner
     steps:
       - run: echo "Hi I'm on a Container Runner!"
+
 workflows:
   build-workflow:
     jobs:
