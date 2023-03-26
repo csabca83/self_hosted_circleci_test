@@ -2,7 +2,7 @@ version: 2.1
 
 branches:
   only:
-    - asd
+    - dev
 
 jobs:
   build:
